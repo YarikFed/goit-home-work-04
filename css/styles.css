@@ -61,8 +61,6 @@ body {
     display: flex;
     align-items: center;
     margin-right: 332px;
-    position: relative;
-    color: #404bbf;
 }
 .logo {
     color: var(--iris);
@@ -96,6 +94,10 @@ body {
         line-height: 1.5;
         text-decoration: none;
         padding: 24px 0 24px;
+}
+.current {
+    position: relative;
+    color: #404bbf;
 }
 .list:hover {
     color: #404bbf;
