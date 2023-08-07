@@ -327,11 +327,10 @@ body {
 }
 /* Customers */
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120xp;
 }
 .customers-container {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 .customers-title {
     font-size: 36px;
