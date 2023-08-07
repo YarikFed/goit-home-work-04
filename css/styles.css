@@ -325,6 +325,45 @@ body {
 .icon-social {
     fill: #f4f4fd;
 }
+/* Customers */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120xp;
+}
+.customers-title {
+    font-size: 36px;
+    list-style: 1.11;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.customers-link {
+    width: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+.customers-link:hover, .customers-link:focus {
+    border-color: #404BBF;
+    color: #404BBF;
+}
+.customers-icon {
+    fill: currentColor;
+}
 /* Footer */
 .footer {
     background: var(--navyblue);
