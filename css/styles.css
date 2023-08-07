@@ -330,9 +330,12 @@ body {
     padding-top: 120px;
     padding-bottom: 120xp;
 }
+.customers-container {
+    padding-bottom: 120px;
+}
 .customers-title {
     font-size: 36px;
-    list-style: 1.11;
+    line-height: 1.11;
     color: #2E2F42;
     margin-bottom: 72px;
     text-align: center;
@@ -348,6 +351,7 @@ body {
 }
 .customers-link {
     width: 100%;
+    height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     display: flex;
