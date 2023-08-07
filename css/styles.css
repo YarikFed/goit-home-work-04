@@ -224,10 +224,7 @@ body {
     border-radius: 4px;
     margin-bottom: 8px;
 }
-svg {
-    width: 64px;
-    height: 64px;
-}
+
 /* What are we doing */
 .image-text {
     color: var(--navyblue);
@@ -324,10 +321,6 @@ svg {
 }
 .social-link:hover, .social-link:focus {
     background-color: #404bbf;
-}
-.team svg {
-    width: 16px;
-    height: 16px;
 }
 .icon-social {
     fill: #f4f4fd;
