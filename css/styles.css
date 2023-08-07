@@ -300,6 +300,7 @@ svg {
 }
 .member-position {
     text-align: center;
+    margin-bottom: 8px;
 }
 .social-list {
     display: flex;
