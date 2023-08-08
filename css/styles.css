@@ -600,9 +600,6 @@ body {
 .data-button-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.data-button-icon:hover {
+.data-button:hover, .data-button:focus {
         fill: #FFFFFF;
-}
-.data-button-icon:focus {
-    fill: #FFFFFF;
 }
